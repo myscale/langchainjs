@@ -10,7 +10,7 @@ export interface MyScaleLibArgs {
   username: string;
   password: string;
   indexType?: string;
-  indexParam?: { [key: string]: string };
+  indexParam?: Record<string, string>;
   columnMap?: ColumnMap;
   database?: string;
   table?: string;
